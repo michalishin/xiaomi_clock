@@ -1,0 +1,38 @@
+#button-container {
+  width: 300px;
+
+  .control-button {
+    background: transparent;
+    border: none;
+    width: 50%;
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    height: 1.2em;
+    color: #666;
+    box-sizing: border-box;
+  }
+  .control-button:first-child{
+    border-left: 1px solid black;
+  }
+  .control-button-group {
+    border: 1px black solid;
+    background: white;
+    width: 100%;
+    height: 1.2em;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin: 0 auto;
+    display: none;
+  }
+  .control-button-group.active {
+    display: block;
+  }
+  #start {
+    width: 100%;
+    border: none;
+  }
+}
+
+
