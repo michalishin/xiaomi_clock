@@ -1,0 +1,21 @@
+{
+  "name": "ftont_template",
+  "description": "",
+  "main": "",
+  "authors": [
+    "v.mikhalishin <v.mikhalishin@outlook.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*"
+  }
+}
